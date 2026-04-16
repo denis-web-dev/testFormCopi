@@ -1,0 +1,18 @@
+:root {
+	// Text
+	--text-color-primary: #1a1a1a;
+	--text-color-active: #1a1a1a;
+	--text-color-secondary: #7b7b7b;
+	--text-hover: #b7b7b7;
+	--text-disabled: #b7b7b7;
+// Buttons
+	--bg-btn-active: #1a1a1a;
+	--bg-btn-normal: #51d62c;
+	--bg-btn-diabled: hsl(107, 67%, 51%, 64%);
+// Bg Wrapper cards
+	--ui-secondery-pink: #eca4d7;
+	--ui-secondery-green: #51d62c;
+// Шрифт
+	--font-primary: 'Unbounded', sans-serif;
+	--font-secondery: 'Arial', sans-serif;
+}

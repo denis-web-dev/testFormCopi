@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;500&display=swap');
+
+html,
+body {
+	font-family: var(--font-primary);
+	color: var(--text-color-primary);
+
+	aspect-ratio: 1440;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+
+	cursor: url('../img/icons/cursors.cur'), auto;
+}
+
+a {
+	color: var(--text-color-active);
+}
+
+.container {
+	max-width: 1410px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+.none{
+	display: none;
+}
