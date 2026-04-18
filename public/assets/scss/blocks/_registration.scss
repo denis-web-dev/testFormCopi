@@ -154,7 +154,7 @@ body.page-registration {
     margin-left: 54px;
   }
 
-  .form__phone-star{
+  .form__phone-star {
     margin-left: 90px;
   }
 
@@ -198,6 +198,25 @@ body.page-registration {
       color: #fff;
       transition: ease-in 0.2s;
     }
+  }
+
+  .error-text {
+    position: absolute;
+    font-family: var(--font-secondery);
+    font-size: 14px;
+    bottom: 34px;
+    left: 456px;
+    color: #cc4422;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .error__svg {
+    position: absolute;
+    top: 23px;
+    right: -21px;
   }
 
   .toggle-password {

@@ -1,0 +1,12 @@
+// Arial Font Face
+@font-face {
+  font-family: 'Arial';
+  src: url('../../fonts/Arial/ArialMT.eot');
+  src: local('Arial'), local('ArialMT'),
+    url('../../fonts/Arial/ArialMT.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Arial/ArialMT.woff') format('woff'),
+    url('../../fonts/Arial/ArialMT.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

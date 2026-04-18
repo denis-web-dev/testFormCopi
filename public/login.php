@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITFREELANCE-Вход</title>
+  <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body class="page-entrance">
+  <div class="wrapper-entrance wrapper">
+    <main class="main">
+      <div class="container">
+        <h1 class="main__title-entrance main__title">Вход</h1>
+        <div class="block-bg">
+          <button class="block-bg__close-btn">
+            <svg class="block-bg__close-svg" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M9.95 0C10.1887 0 10.4176 0.0948213 10.5864 0.263604C10.7552 0.432387 10.85 0.661305 10.85 0.9V7.65H17.6C17.8387 7.65 18.0676 7.74482 18.2364 7.9136C18.4052 8.08239 18.5 8.31131 18.5 8.55V9.45C18.5 9.68869 18.4052 9.91761 18.2364 10.0864C18.0676 10.2552 17.8387 10.35 17.6 10.35H10.85V17.1C10.85 17.3387 10.7552 17.5676 10.5864 17.7364C10.4176 17.9052 10.1887 18 9.95 18H9.05C8.81131 18 8.58239 17.9052 8.4136 17.7364C8.24482 17.5676 8.15 17.3387 8.15 17.1V10.35H1.4C1.16131 10.35 0.932387 10.2552 0.763604 10.0864C0.594821 9.91761 0.5 9.68869 0.5 9.45V8.55C0.5 8.31131 0.594821 8.08239 0.763604 7.9136C0.932387 7.74482 1.16131 7.65 1.4 7.65H8.15V0.9C8.15 0.661305 8.24482 0.432387 8.4136 0.263604C8.58239 0.0948213 8.81131 0 9.05 0H9.95Z" />
+            </svg>
+          </button>
+          <svg class="block-bg__svg" width="1410" height="770" viewBox="0 0 1410 770" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M1338.69 0C1360.04 0 1370.74 25.8136 1355.64 40.9107C1346.28 50.2696 1346.28 65.4433 1355.64 74.8022L1401.21 120.375C1406.84 126.001 1410 133.632 1410 141.588V740C1410 756.569 1396.57 770 1380 770H30C13.4315 770 0 756.569 0 740V30C0 13.4315 13.4315 0 30 0H1338.69Z" />
+          </svg>
+
+          <form class="form__container-entrance form__container">
+
+            <div class="form-group form-group__email">
+              <input class="form__email" type="email" id="form_email" name="emailUser" required placeholder="E-mail">
+              <label for="form_email">E-mail</label>
+              <svg class="form__email-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z"
+                  fill="#B7B7B7" />
+              </svg>
+            </div>
+
+            <div class="form-group form-group__password" id="form-group__password">
+              <input class="form__password" type="password" id="password" name="passwordUser" required
+                placeholder="Введите пароль">
+              <label for="password">Введите пароль</label>
+              <svg class="form__password-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z"
+                  fill="#B7B7B7" />
+              </svg>
+              <button type="button" class="toggle-password" data-target="password" aria-label="Показать пароль">
+                <svg class="toggle__password-svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg"></svg>
+              </button>
+            </div>
+
+            <div class="form-group__checkbox">
+              <label class="form__checkbox-label">
+                <input class="form__checkbox" type="checkbox" name="rememberMe"> Запомнить меня
+              </label>
+              <a class="form__forgot-password" href="forgot-pass.html">Забыли пароль?</a>
+            </div>
+
+            <button class="form__btn" type="submit">Войти</button>
+          </form>
+
+          <div class="account__link-entrance account__link">
+            <span class="account__entrance-reg" href="#!">Нет аккаунта?</span>
+            <a class="account__link-enter" href="registration.html">Зарегистрироваться</a>
+          </div>
+        </div>
+    </main>
+  </div>
+
+  <script src="./js/login-registration.js"></script>
+</body>
+
+</html>

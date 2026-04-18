@@ -1,0 +1,140 @@
+<?php
+declare(strict_types=1);
+
+session_start();
+
+require_once __DIR__ . '/../includes/functions.php';
+
+// ====================== ОБРАБОТКА ФОРМЫ ======================
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    require_once __DIR__ . '/../src/controllers/RegisterController.php';
+    exit;                    // ← Очень важно! Чтобы дальше форма не рендерилась
+}
+
+// Восстанавливаем ошибки и старые значения
+$errors = $_SESSION['form_errors'] ?? [];
+$old    = $_SESSION['form_old'] ?? [];
+
+// Очищаем сессию
+unset($_SESSION['form_errors'], $_SESSION['form_old']);
+?>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITFREELANCE-Регистрация</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+        .error-text { color: #e74c3c; font-size: 13px; margin-top: 6px; display: block; }
+        .form-group.has-error input { border-color: #e74c3c !important; background-color: #fff5f5; }
+        .flash-message { padding: 14px 20px; border-radius: 8px; margin-bottom: 20px; text-align: center; font-weight: 500; }
+        .flash-message.success { background: #d4edda; color: #155724; }
+        .flash-message.error   { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body class="page-registration">
+
+<div class="wrapper-registration wrapper">
+    <main class="main">
+        <div class="container">
+            <h1 class="main__title">Регистрация</h1>
+            <h2 class="main__title-mobile">Создать аккаунт</h2>
+
+            <?php get_flash(); ?>
+
+            <?php if (!empty($errors['general'])): ?>
+                <div class="flash-message error"><?= e($errors['general']) ?></div>
+            <?php endif; ?>
+
+            <div class="block-bg">
+                <button class="block-bg__close-btn" type="button">
+                    <svg class="block-bg__close-svg" viewBox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.95 0C10.1887 0 10.4176 0.0948213 10.5864 0.263604C10.7552 0.432387 10.85 0.661305 10.85 0.9V7.65H17.6C17.8387 7.65 18.0676 7.74482 18.2364 7.9136C18.4052 8.08239 18.5 8.31131 18.5 8.55V9.45C18.5 9.68869 18.4052 9.91761 18.2364 10.0864C18.0676 10.2552 17.8387 10.35 17.6 10.35H10.85V17.1C10.85 17.3387 10.7552 17.5676 10.5864 17.7364C10.4176 17.9052 10.1887 18 9.95 18H9.05C8.81131 18 8.58239 17.9052 8.4136 17.7364C8.24482 17.5676 8.15 17.3387 8.15 17.1V10.35H1.4C1.16131 10.35 0.932387 10.2552 0.763604 10.0864C0.594821 9.91761 0.5 9.68869 0.5 9.45V8.55C0.5 8.31131 0.594821 8.08239 0.763604 7.9136C0.932387 7.74482 1.16131 7.65 1.4 7.65H8.15V0.9C8.15 0.661305 8.24482 0.432387 8.4136 0.263604C8.58239 0.0948213 8.81131 0 9.05 0H9.95Z" />
+                    </svg>
+                </button>
+
+                <svg class="block-bg__svg" width="1410" height="770" viewBox="0 0 1410 770" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1338.69 0C1360.04 0 1370.74 25.8136 1355.64 40.9107C1346.28 50.2696 1346.28 65.4433 1355.64 74.8022L1401.21 120.375C1406.84 126.001 1410 133.632 1410 141.588V740C1410 756.569 1396.57 770 1380 770H30C13.4315 770 0 756.569 0 740V30C0 13.4315 13.4315 0 30 0H1338.69Z" />
+                </svg>
+
+                <form class="form__container-registration form__container" method="POST" action="/registration.php">
+                    <input type="hidden" name="csrf_token" value="<?= htmlspecialchars($_SESSION['csrf_token'] ?? '') ?>">
+
+                    <!-- Поле Имя -->
+                    <div class="form-group form-group__name <?= isset($errors['name']) ? 'has-error' : '' ?>">
+                        <input class="form__name" type="text" id="form_name" name="name" value="<?= old('name', $old['name'] ?? '') ?>" required placeholder="Имя">
+                        <label for="form_name">Имя</label>
+                        <?php if (isset($errors['name'])): ?><span class="error-text"><?= e($errors['name']) ?></span><?php endif; ?>
+                        <svg class="form__name-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z" fill="#B7B7B7" />
+                        </svg>
+                    </div>
+
+                    <!-- Поле Телефон -->
+                    <div class="form-group form-group__phone <?= isset($errors['phone']) ? 'has-error' : '' ?>">
+                        <input class="form__phone" type="tel" id="form_phone" name="phone" value="<?= old('phone', $old['phone'] ?? '') ?>" required placeholder="Телефон">
+                        <label for="form_phone">Телефон</label>
+                        <svg class="form__phone-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z" fill="#B7B7B7" />
+                        </svg>
+                        <?php if (isset($errors['phone'])): ?>
+                            <span class="error-text"><?= e($errors['phone']) ?></span>
+                        <?php endif; ?>
+                    </div>
+
+                    <!-- Поле Email -->
+                    <div class="form-group form-group__email <?= isset($errors['email']) ? 'has-error' : '' ?>">
+                        <input class="form__email" type="email" id="form_email" name="email" value="<?= old('email', $old['email'] ?? '') ?>" required placeholder="E-mail">
+                        <label for="form_email">E-mail</label>
+                        <svg class="form__email-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z" fill="#B7B7B7" />
+                        </svg>
+                        <?php if (isset($errors['email'])): ?>
+                            <span class="error-text"><?= e($errors['email']) ?></span>
+                        <?php endif; ?>
+                    </div>
+
+                    <!-- Поле Пароль -->
+                    <div class="form-group form-group__password <?= isset($errors['password']) ? 'has-error' : '' ?>" id="form-group__password">
+                        <input class="form__password" type="password" id="password" name="password" value="<?= old('password', $old['password'] ?? '') ?>" required placeholder="Введите пароль">
+                        <label for="password">Введите пароль</label>
+                        <svg class="form__password-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z" fill="#B7B7B7" />
+                        </svg>
+                        <button type="button" class="toggle-password" data-target="password" aria-label="Показать пароль"></button>
+                        <?php if (isset($errors['password'])): ?>
+                            <span class="error-text"><?= e($errors['password']) ?></span>
+                        <?php endif; ?>
+                    </div>
+
+                    <!-- Поле Повторите пароль -->
+                    <div class="form-group form-group__confirm-password <?= isset($errors['confirm-password']) ? 'has-error' : '' ?>" id="form-group__confirm-password">
+                        <input class="form__password" type="password" id="repeatPassword" name="confirm-password" value="<?= old('confirm-password', $old['confirm-password'] ?? '') ?>" required placeholder="Повторите пароль">
+                        <label for="repeatPassword">Повторите пароль</label>
+                        <svg class="form__passwords-star form__star" width="14" height="13" viewBox="0 0 14 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.82798 6.5L0 4.95555L2.08438 1.54445L5.91502 4.95555L4.9156 0H9.0844L8.18391 4.95555L11.9156 1.54445L14 4.95555L11.172 6.5L14 8.04445L11.9156 11.4556L8.18391 8.04445L9.0844 13H4.9156L5.91502 8.04445L2.08438 11.4556L0 8.04445L2.82798 6.5Z" fill="#B7B7B7" />
+                        </svg>
+                        <button type="button" class="toggle-password" data-target="repeatPassword" aria-label="Показать пароль"></button>
+                        <?php if (isset($errors['confirm-password'])): ?>
+                            <span class="error-text"><?= e($errors['confirm-password']) ?></span>
+                        <?php endif; ?>
+                    </div>
+
+                    <button class="form__btn" type="submit">Зарегистрироваться</button>
+                </form>
+
+                <div class="account__link">
+                    <span class="account__entrance-reg">Есть аккаунт?</span>
+                    <a class="account__link-enter" href="/login.php">Войти</a>
+                    <a class="documentation" href="#">Этот сайт защищен и к нему применяются <span class="underline">Политика конфиденциальности</span> и <span class="underline">Условия обслуживания</span>.</a>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
+<script src="/assets/js/login-registration.js"></script>
+</body>
+</html>
