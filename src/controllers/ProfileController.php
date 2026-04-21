@@ -148,7 +148,7 @@ function updateProfile(PDO $pdo, User $userModel, array &$errors): void
                 telegram = ?,
                 vk = ?,
                 about = ?,
-                updated_at = NOW()
+                updated_at = CURRENT_TIMESTAMP
             WHERE id = ?
         ");
 
@@ -268,7 +268,7 @@ function uploadAvatar(PDO $pdo, User $userModel, array &$errors): void
 
     // Обновление в БД
     $avatarPath = '/uploads/avatars/' . $fileName;
-    $stmt = $pdo->prepare("UPDATE users SET avatar = ?, updated_at = NOW() WHERE id = ?");
+    $stmt = $pdo->prepare("UPDATE users SET avatar = ?, updated_at = CURRENT_TIMESTAMP WHERE id = ?");
     $stmt->execute([$avatarPath, $userId]);
 
     set_flash('success', 'Аватар успешно обновлён!');
@@ -342,7 +342,7 @@ function addPortfolio(PDO $pdo, User $userModel, array &$errors): void
         // Сохранение в БД
         $stmt = $pdo->prepare("
             INSERT INTO portfolio_items (user_id, image_path, created_at)
-            VALUES (?, ?, NOW())
+            VALUES (?, ?, CURRENT_TIMESTAMP)
         ");
         $stmt->execute([$userId, '/uploads/portfolio/' . $fileName]);
         $uploaded++;
@@ -478,7 +478,7 @@ function uploadPortfolioAjax(PDO $pdo, User $userModel): array
 
     $stmt = $pdo->prepare("
         INSERT INTO portfolio_items (user_id, image_path, created_at)
-        VALUES (?, ?, NOW())
+        VALUES (?, ?, CURRENT_TIMESTAMP)
     ");
     $stmt->execute([$userId, '/uploads/portfolio/' . $fileName]);
     $itemId = $pdo->lastInsertId();

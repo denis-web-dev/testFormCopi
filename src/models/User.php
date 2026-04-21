@@ -154,8 +154,8 @@ $allowedFields = [
             }
         }
 
-        // Добавляем updated_at
-        $setParts[] = "updated_at = NOW()";
+// Добавляем updated_at
+        $setParts[] = "updated_at = CURRENT_TIMESTAMP";
 
         // Добавляем user_id в конец параметров
         $params[] = $userId;

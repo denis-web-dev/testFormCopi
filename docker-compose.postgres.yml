@@ -12,12 +12,17 @@ services:
       - '9000'
     depends_on:
       - db
+    environment:
+      DB_HOST: db
+      DB_DATABASE: itfreelance
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
 
   nginx:
     image: nginx:alpine
     container_name: itfreelance_nginx
     ports:
-      - '8081:80'
+      - '8081:80'  # Изменён порт с 8080 на 8081
     volumes:
       - ./:/var/www/html
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
@@ -34,23 +39,9 @@ services:
       POSTGRES_DB: itfreelance
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    ports:
-      - '5432:5432'
-
-  pgadmin:
-    image: dpage/pgadmin4:latest
-    container_name: itfreelance_pgadmin
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@itfreelance.com
-      PGADMIN_DEFAULT_PASSWORD: admin
-    ports:
-      - '5070:80'
-    volumes:
-      - pgadmin_data:/var/lib/pgadmin
-    depends_on:
-      - db
+    # Порт PostgreSQL можно не пробрасывать наружу, если не нужен доступ с хоста
+    # ports:
+    #   - '5432:5432'
 
 volumes:
   postgres_data:
-  pgadmin_data:

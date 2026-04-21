@@ -2,16 +2,16 @@
 declare(strict_types=1);
 
 /**
- * Подключение к базе данных (Docker версия)
+ * Подключение к базе данных PostgreSQL (Docker версия)
  */
 
 $host     = getenv('DB_HOST')     ?: 'db';           // важно: 'db' — имя сервиса в docker-compose
 $dbname   = getenv('DB_DATABASE') ?: 'itfreelance';
-$username = getenv('DB_USERNAME') ?: 'root';
-$password = getenv('DB_PASSWORD') ?: 'root';
-$charset  = 'utf8mb4';
+$username = getenv('DB_USERNAME') ?: 'postgres';
+$password = getenv('DB_PASSWORD') ?: 'postgres';
+$port     = getenv('DB_PORT')     ?: '5432';
 
-$dsn = "mysql:host=$host;dbname=$dbname;charset=$charset";
+$dsn = "pgsql:host=$host;port=$port;dbname=$dbname;";
 
 try {
     $pdo = new PDO($dsn, $username, $password, [
