@@ -1,0 +1,2452 @@
+/* 3.0_Заполнение профиля Исполнитель_1920 (frame) */
+width: 1920px;
+
+ 
+цвет фона background: #0cb660;
+ 
+/* Button (instance) */
+width: 1890px;
+height: 48px;
+padding: 12px 16px;
+ 
+background: #37f737;
+ 
+border-radius: 100px;
+ 
+/* Button (text) */
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Портфолио (frame) */
+width: 1890px;
+height: 813px;
+ 
+background: #ffffff;
+ 
+border-radius: 30px;
+ 
+/* Title (text) */
+width: 259px;
+height: 43px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* 1 (frame) */
+width: 1835px;
+height: 320px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* 2 (frame) */
+width: 1835px;
+height: 320px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* Card_image (instance) */
+width: 447px;
+height: 320px;
+ 
+/* unsplash:_r3nclhPoPM (rectangle) */
+width: 447px;
+height: 320px;
+ 
+border-radius: 20px;
+ 
+transform: rotate(180deg);
+ 
+/* Rectangle 1101 (rectangle) */
+width: 62px;
+height: 62px;
+ 
+background: #d9d9d9;
+ 
+/* Button_icon (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 12px;
+ 
+background: #1a1a1a;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 4px 4px;
+ 
+/* About (frame) */
+width: 1890px;
+height: 585px;
+ 
+background: #ffffff;
+ 
+border-radius: 30px;
+ 
+/* Title (text) */
+width: 181px;
+height: 43px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Fields (instance) */
+width: 915px;
+height: 452px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 16px;
+ 
+/* Atom (frame) */
+width: 867px;
+height: 150px;
+ 
+/* Text_Description (frame) */
+width: 58px;
+height: 20px;
+ 
+/* Text (text) */
+width: 58px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* Icon (instance) */
+width: 24px;
+height: 24px;
+padding: 2px 5px;
+ 
+/* Atom (frame) */
+width: 867px;
+height: 24px;
+ 
+/* Atom/Description (text) */
+width: 36px;
+height: 24px;
+ 
+font-family: Helvetica;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: right;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (frame) */
+width: 606px;
+height: 182px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 558px;
+height: 20px;
+ 
+/* Text (text) */
+width: 64px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Frame 1321315748 (frame) */
+width: 606px;
+height: 116px;
+ 
+/* Chekbox (instance) */
+width: 104px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 80px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 108px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 84px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 125px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 101px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 256px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 232px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 75px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 51px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 195px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 171px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 120px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 96px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 266px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 242px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 117px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 93px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 119px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 95px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Fields (frame) */
+width: 606px;
+height: 152px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 558px;
+height: 20px;
+ 
+/* Text (text) */
+width: 113px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Frame 1321315748 (frame) */
+width: 606px;
+height: 86px;
+ 
+/* Chekbox (instance) */
+width: 83px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 59px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 180px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 156px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 192px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 168px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 81px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 57px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 64px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 40px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 49px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 25px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 80px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 56px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 62px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 38px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 137px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 113px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 70px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 46px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 92px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 68px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 72px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 48px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 58px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 34px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 52px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 28px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Main (frame) */
+width: 1890px;
+height: 688px;
+ 
+/* Rectangle 1078 (rectangle) */
+width: 1890px;
+height: 688px;
+ 
+background: #f2f2f2;
+ 
+border-radius: 30px;
+ 
+/* Rectangle 1066 (rectangle) */
+width: 265px;
+height: 91px;
+ 
+background: #d9d9d9;
+ 
+/* Поля (frame) */
+width: 606px;
+height: 449px;
+ 
+/* 1 (frame) */
+width: 606px;
+height: 128px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 131px;
+height: 20px;
+ 
+/* Text (text) */
+width: 117px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 72px;
+height: 20px;
+ 
+/* Text (text) */
+width: 58px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* 2 (frame) */
+width: 606px;
+height: 265px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 126px;
+height: 20px;
+ 
+/* Text (text) */
+width: 112px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 127px;
+height: 20px;
+ 
+/* Text (text) */
+width: 127px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (frame) */
+width: 606px;
+height: 121px;
+ 
+/* Fields (instance) */
+width: 606px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 558px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 192px;
+height: 20px;
+ 
+/* Text (text) */
+width: 178px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Chekbox (instance) */
+width: 150px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 126px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 110px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 86px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 107px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 83px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 232px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 208px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Chekbox (instance) */
+width: 166px;
+height: 26px;
+padding: 4px 0;
+ 
+/* Check (frame) */
+width: 16px;
+height: 16px;
+padding: 10px 10px;
+ 
+border: 2px solid #1a1a1a;
+border-radius: 5px;
+ 
+/* Title (text) */
+width: 142px;
+height: 18px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Frame 4172 (frame) */
+width: 446px;
+height: 55px;
+ 
+/* ↪️ Title (text) */
+width: 81px;
+height: 19px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* ↪️ Title (text) */
+width: 165px;
+height: 17px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+text-decoration-line: underline;
+ 
+color: #1a1a1a;
+ 
+/* ↪️ Title (text) */
+width: 135px;
+height: 17px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+text-decoration-line: underline;
+ 
+color: #1a1a1a;
+ 
+/* ↪️ Title (text) */
+width: 36px;
+height: 17px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+text-decoration-line: underline;
+ 
+color: #1a1a1a;
+ 
+/* ↪️ Title (text) */
+width: 108px;
+height: 17px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+text-decoration-line: underline;
+ 
+color: #1a1a1a;
+ 
+/* ↪️ Title (text) */
+width: 208px;
+height: 17px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: left;
+text-decoration-line: underline;
+ 
+color: #1a1a1a;
+ 
+/* 3 (frame) */
+width: 607px;
+height: 128px;
+ 
+/* Fields (instance) */
+width: 607px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #d9d9d9;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 559px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 195px;
+height: 23px;
+ 
+/* Text (text) */
+width: 195px;
+height: 23px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.15;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Text_Description (frame) */
+width: 67px;
+height: 16px;
+ 
+/* Text (text) */
+width: 67px;
+height: 16px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 16px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (instance) */
+width: 607px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 559px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 66px;
+height: 20px;
+ 
+/* Text (text) */
+width: 52px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* 4 (frame) */
+width: 607px;
+height: 200px;
+ 
+/* Fields (instance) */
+width: 607px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 559px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 42px;
+height: 20px;
+ 
+/* Text (text) */
+width: 42px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (instance) */
+width: 607px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 559px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 79px;
+height: 20px;
+ 
+/* Text (text) */
+width: 79px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Fields (instance) */
+width: 607px;
+height: 56px;
+padding: 16px 24px;
+ 
+background: #ffffff;
+ 
+border: 1px solid #b7b7b7;
+border-radius: 100px;
+ 
+/* Atom (frame) */
+width: 559px;
+height: 24px;
+ 
+/* Text_Description (frame) */
+width: 85px;
+height: 20px;
+ 
+/* Text (text) */
+width: 85px;
+height: 20px;
+ 
+font-family: Arial;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: left;
+ 
+color: #7b7b7b;
+ 
+/* icon (frame) */
+width: 24px;
+height: 24px;
+ 
+/* Аватар (frame) */
+width: 218px;
+height: 372px;
+ 
+/* Avatar (frame) */
+width: 300px;
+height: 300px;
+ 
+border: 1px solid #dedede;
+border-radius: 1000px;
+ 
+/* Frame 4140 (frame) */
+width: 300px;
+height: 300px;
+ 
+/* Frame 4138 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Frame 4139 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4140 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4141 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4142 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4143 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4144 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Frame 4145 (frame) */
+width: 300px;
+height: 22px;
+ 
+/* Ellipse 197 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Ellipse 199 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 200 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 201 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 202 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 203 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 204 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 205 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 206 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #eaeaea;
+ 
+/* Ellipse 207 (ellipse) */
+width: 9px;
+height: 9px;
+ 
+background: #37f737;
+ 
+/* Button (frame) */
+width: 218px;
+height: 56px;
+ 
+/* Button (instance) */
+width: 298px;
+height: 56px;
+padding: 12px 16px;
+ 
+background: #dddddd;
+ 
+border-radius: 100px;
+ 
+/* Button (text) */
+width: 124px;
+height: 22px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Title (text) */
+width: 299px;
+height: 43px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 35px;
+line-height: 43px;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Header/Log In/1920 (instance) */
+width: 1920px;
+height: 106px;
+ 
+/* Frame 4190 (frame) */
+width: 1840px;
+height: 56px;
+ 
+/* Logo (group) */
+width: 215px;
+height: 39px;
+ 
+/* Ellipse 201 (ellipse) */
+width: 10px;
+height: 5px;
+ 
+background: #d9d9d9;
+ 
+transform: rotate(-28.76deg);
+ 
+/* Ellipse 201 (ellipse) */
+width: 10px;
+height: 5px;
+ 
+background: #d9d9d9;
+ 
+transform: rotate(-28.76deg);
+ 
+/* Ellipse 201 (ellipse) */
+width: 10px;
+height: 5px;
+ 
+background: #d9d9d9;
+ 
+transform: rotate(-28.76deg);
+ 
+/* Frame 1321315747 (frame) */
+width: 1576px;
+height: 56px;
+ 
+/* Frame 4189 (frame) */
+width: 334px;
+height: 56px;
+ 
+/* Frame 4188 (frame) */
+width: 334px;
+height: 56px;
+ 
+/* Button (instance) */
+width: 123px;
+height: 56px;
+padding: 12px 16px;
+ 
+background: #dddddd;
+ 
+border-radius: 100px;
+ 
+/* Button (text) */
+width: 91px;
+height: 22px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Button (instance) */
+width: 196px;
+height: 56px;
+padding: 12px 16px;
+ 
+background: #dddddd;
+ 
+border-radius: 100px;
+ 
+/* Button (text) */
+width: 164px;
+height: 22px;
+ 
+font-family: Unbounded;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+ 
+color: #1a1a1a;
+ 
+/* Frame 4192 (frame) */
+width: 119px;
+height: 56px;
+ 
+/* Frame 4188 (frame) */
+width: 119px;
+height: 56px;
+ 
+/* Icon (instance) */
+width: 32px;
+height: 32px;
+padding: 4px 4px;
+ 
+/* Button_icon (instance) */
+width: 56px;
+height: 56px;
+padding: 12px 12px;
+ 
+background: #dddddd;
+ 
+border-radius: 100px;
+ 
+/* Icon (instance) */
+width: 32px;
+height: 32px;
+padding: 6px 4px;
+ 
+/* Avatar (instance) */
+width: 48px;
+height: 48px;
+padding: 12px 15px;
+ 
+background: #d9d9d9;
+ 
+border-radius: 100px;
+ 
